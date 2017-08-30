@@ -2,7 +2,8 @@
 
 获取更多信息请访问[Github](https://github.com/tujingyu)
 
-![tupian](http://img06.tooopen.com/images/20160712/tooopen_sy_170083325566.jpg,http://img06.tooopen.com/images/20160712/tooopen_sy_170083325566.jpg)
+![tupian](http://img06.tooopen.com/images/20160712/tooopen_sy_170083325566.jpg)
+![tupian](http://img06.tooopen.com/images/20160712/tooopen_sy_170083325566.jpg)
 
 - github入门
 - github进阶
@@ -16,7 +17,7 @@
 
 天生我才必有用
 
-*哈哈*  *哈哈
+**加粗**  *斜体* ***分割线
 
 	`<div class="productlist-waikuang mui-input-row">
 				<input type="text" id="search" class="mui-input-clear productlist-search" placeholder="请输入关键字搜索" />
