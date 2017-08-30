@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>购物车数字加减框</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+
+	<body>
+		<ul class="btn-numbox">
+			<li><span class="number">数量</span></li>
+			<li>
+				<ul class="count">
+					<li><span id="num-jian" class="num-jian">-</span></li>
+					<li><input type="text" class="input-num" id="input-num" value="0" /></li>
+					<li><span id="num-jia" class="num-jia">+</span></li>
+				</ul>
+			</li>
+			<li><span class="kucun">（库存:54）</span></li>
+			</ul>
+	</body>
+
+	<script>
+		var num_jia = document.getElementById("num-jia");
+		var num_jian = document.getElementById("num-jian");
+		var input_num = document.getElementById("input-num");
+
+		num_jia.onclick = function() {
+
+			input_num.value = parseInt(input_num.value) + 1;
+		}
+
+		num_jian.onclick = function() {
+
+			if(input_num.value <= 0) {
+				input_num.value = 0;
+			} else {
+
+				input_num.value = parseInt(input_num.value) - 1;
+			}
+
+		}
+	</script>
+
+</html>
