@@ -41,6 +41,23 @@
 			}
 
 		}
+		
+		/* 如果在和后台做数据交互时，出现点击加减按钮的值无法传到后台的情况，可以用下面这种方式
+		$("#list-shop-main").on("click", ".num-jian", function(m) {
+			var obj = $(this).closest("ul").find(".input-num");
+			if(obj.val() <= 0) {
+			     obj.val(0);
+			} else {
+			     obj.val(parseInt(obj.val()) - 1);
+			}
+			obj.change();
+		 });
+		
+		$("#list-shop-main").on("click", ".num-jia", function(m) {
+			var obj = $(this).closest("ul").find(".input-num");
+			obj.val(parseInt(obj.val()) + 1);
+			obj.change();
+		});*/
 	</script>
 
 </html>
