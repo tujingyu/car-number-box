@@ -62,11 +62,7 @@
                 cursor: pointer;
                 border: 1px solid #e6e6e6;
             }
-            
-            .btn-numbox .count .num-jia {
-                margin-left: 1px;
-            }
-            
+             
             .btn-numbox .count .input-num {
                 width: 58px;
                 height: 26px;
